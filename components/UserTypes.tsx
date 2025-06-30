@@ -69,7 +69,7 @@ export default function UserTypes() {
                 <CardContent className="p-0">
                   {/* Image/Icon Area as background image */}
                   <div
-                    className="aspect-video flex items-center justify-center mb-6 rounded-t-lg overflow-hidden group-hover:scale-110 transition-transform duration-500 bg-cover bg-center"
+                    className="aspect-video flex items-center justify-center mb-6 rounded-t-lg overflow-hidden group-hover:scale-105 transition-transform duration-500 bg-cover bg-center"
                     style={{ backgroundImage: `url(${type.bgImage})`, backgroundColor: "#f9fafb" }}
                   ></div>
 

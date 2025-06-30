@@ -137,7 +137,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <Card
               key={index}
-              className="faq-item bg-transparent border-x-0 border-2 border-y-gray-400 hover:shadow-lg transition-all duration-200"
+              className="faq-item rounded-none bg-transparent border-x-0 border border-t-gray-400 border-b-0 hover:shadow-lg transition-all duration-200"
             >
               <CardContent className="p-0">
                 <button
