@@ -40,7 +40,7 @@ export default function Hero() {
 
   return (
     <><SectionHeader title="Tools for Landlords" />
-    <section ref={heroRef} className="pt-0 mt-0 pb-4 px-6 min-h-screen flex items-center bg-white dark:bg-dark-bg">
+    <section ref={heroRef} className="pt-0 mt-5 pb-4 px-6 flex items-center bg-white dark:bg-dark-bg">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Dashboard Preview */}

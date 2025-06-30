@@ -59,8 +59,8 @@ export default function SectionNavigation() {
 
   return (
     <>
-      <div className="fixed top-[70px] lg:top-18 w-full z-40">
-        <div className="py-4 w-full px-6 md:px-16 bg-white dark:bg-dark-bg mb-2 flex border-y border-gray-600 text-md font-normal">
+      <div className="fixed top-0 w-full z-40">
+        <div className="py-4 font-bold w-full px-6 md:px-16 bg-white dark:bg-dark-bg mb-1 flex border-y border-gray-600 text-md font-normal">
           Tools for Landlords
         </div>
         <div className="noscrollbar" style={{ WebkitOverflowScrolling: 'touch', overflow: 'hidden' }}>
