@@ -12,7 +12,7 @@ const userTypes = [
     title: "Ideal For Landlords",
     description:
       "See portfolio-wide cash flow and vacancy at a glance, so you can optimize rents and maximize returns effortlessly.",
-    bgImage: "/images/tenant-card-image.png"
+    bgImage: "/images/landlord-card-image.png"
   },
   {
     title: "Perfect for Managers",
@@ -24,7 +24,7 @@ const userTypes = [
     title: "Loved by Tenants",
     description:
       "Instant rent payments, simple maintenance requests, and downloadable agreements—no extra apps required.",
-    bgImage: "/images/Tenant-card-image.png"
+    bgImage: "/images/tenants-card-image.png"
   },
 ]
 
