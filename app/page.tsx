@@ -52,7 +52,7 @@ export default function Home() {
       <div className="min-h-screen bg-white dark:bg-dark-bg transition-colors duration-300">
         <Header />
         <SectionNavigation />
-        <main className="pt-16">
+        <main className="">
           {" "}
           {/* Add padding to account for sticky navigation */}
           <Hero />

@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { gsap } from "gsap"
 import { Building, Phone, Star } from "lucide-react"
-import { SectionHeader }  from "@/components/SectionHeader"
 
 export default function Hero() {
   const heroRef = useRef<HTMLDivElement>(null)
@@ -39,12 +38,12 @@ export default function Hero() {
   }, [])
 
   return (
-    <><SectionHeader title="Tools for Landlords" />
-    <section ref={heroRef} className="pt-0 mt-0 pb-4 px-6 min-h-screen flex items-center bg-white dark:bg-dark-bg">
+    // <><SectionHeader title="Tools for Landlords" />
+    <section ref={heroRef} className="pt-0 mt-1 mt-lg-4 pb-2 px-6 flex items-center bg-white dark:bg-dark-bg">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Dashboard Preview */}
-            <div ref={dashboardRef} className="lg:col-span-6">
+            <div ref={dashboardRef} className="lg:col-span-7">
               <div className="relative group">
                 {/* Main Dashboard Image */}
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 group-hover:shadow-3xl group-hover:scale-[1.02]">
@@ -74,9 +73,9 @@ export default function Hero() {
             </div>
 
             {/* Text Content - Right Side (5 columns) */}
-            <div className="lg:col-span-6 space-y-8">
+            <div className="lg:col-span-5 space-y-8 mt-10">
               {/* Brand Label */}
-              <p className="hero-text text-gray-700 dark:text-gray-300 text-sm">TenantPulse Pro</p>
+              <p className="hero-text text-gray-700 font-bold dark:text-gray-300 text-sm">TenantPulse Pro</p>
 
               {/* Main Headline */}
               <h1 className="hero-text text-3xl md:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
@@ -134,6 +133,6 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      </>
+      // </>
   )
 }

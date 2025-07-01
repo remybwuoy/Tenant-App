@@ -12,7 +12,7 @@ const userTypes = [
     title: "Ideal For Landlords",
     description:
       "See portfolio-wide cash flow and vacancy at a glance, so you can optimize rents and maximize returns effortlessly.",
-    bgImage: "/images/tenant-card-image.png"
+    bgImage: "/images/landlord-card-image.png"
   },
   {
     title: "Perfect for Managers",
@@ -24,7 +24,7 @@ const userTypes = [
     title: "Loved by Tenants",
     description:
       "Instant rent payments, simple maintenance requests, and downloadable agreements—no extra apps required.",
-    bgImage: "/images/Tenant-card-image.png"
+    bgImage: "/images/tenants-card-image.png"
   },
 ]
 
@@ -69,7 +69,7 @@ export default function UserTypes() {
                 <CardContent className="p-0">
                   {/* Image/Icon Area as background image */}
                   <div
-                    className="aspect-video flex items-center justify-center mb-6 rounded-t-lg overflow-hidden group-hover:scale-110 transition-transform duration-500 bg-cover bg-center"
+                    className="aspect-video flex items-center justify-center mb-6 rounded-t-lg overflow-hidden group-hover:scale-105 transition-transform duration-500 bg-cover bg-center"
                     style={{ backgroundImage: `url(${type.bgImage})`, backgroundColor: "#f9fafb" }}
                   ></div>
 
