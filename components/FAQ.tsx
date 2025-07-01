@@ -133,7 +133,7 @@ export default function FAQ() {
           <p className="text-center">Get answers to common questions about TenantPulse features, pricing, and integrations.</p>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-0">
           {faqs.map((faq, index) => (
             <Card
               key={index}
@@ -146,7 +146,7 @@ export default function FAQ() {
                 >
                   <span className="font-semibold text-gray-900 dark:text-white pr-4 text-lg">{faq.question}</span>
                   <ChevronDown
-                    className={`w-5 h-5 text-brand-green transition-transform duration-200 ${
+                    className={`w-5 h-5 text-black dark:text-brand-green transition-transform duration-200 ${
                       openIndex === index ? "rotate-180" : ""
                     }`}
                   />

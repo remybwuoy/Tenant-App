@@ -298,10 +298,10 @@ export default function Pricing() {
               {/* Pricing Cards - First 3 */}
               <div className="space-y-4">
                 {currentPlans.slice(0, 3).map((plan, index) => (
-                  <div key={index} className="relative">
+                  <div key={index} className="relative pt-4">
                     {/* Most Popular Badge - Only for middle card (index 1) */}
                     {index === 1 && (
-                      <div className="absolute -top-4 left-6 z-10">
+                      <div className="absolute -top-0 left-6 z-10">
                         <div className="bg-brand-green text-white px-2 py-1 -mt-3 rounded-t-xl text-sm font-medium shadow-lg">
                           Most Popular
                         </div>

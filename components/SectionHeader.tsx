@@ -6,8 +6,9 @@ interface SectionHeaderProps {
 
 export function SectionHeader({ title, className = "" }: SectionHeaderProps) {
   return (
-    <div className={`py-4 px-16 lg:mt-2 mt-4 lg:mb-0 mb-10 flex border-y border-gray-600 text-md font-normal ${className}`}>
-      {title}
-    </div>
+      <div className="fixed top-20 py-4 font-bold w-full px-6 md:px-16 bg-white dark:bg-dark-bg mb-1 flex border-b border-gray-600 text-md font-normal shadow-md">
+        {title}
+      </div>
+
   )
 }
