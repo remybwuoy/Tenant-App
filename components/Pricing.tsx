@@ -313,7 +313,7 @@ export default function Pricing() {
                         {/* Header with Plan Name and Description */}
                         <div className="flex items-start justify-between mb-2">
                           <div className="flex-1">
-                            <div className="bg-gray-100 dark:bg-transparent border-2 border-gray-300 dark:border-2 dark:border-gray-600 text-gray-900 dark:text-white px-6 py-2 rounded-lg text-sm font-medium inline-block mb-4">
+                            <div className="bg-gray-100 dark:bg-transparent border-2 border-gray-400 dark:border-2 dark:border-gray-600 text-gray-900 dark:text-white px-6 py-2 rounded-lg text-sm font-medium inline-block mb-4">
                               {plan.name}
                             </div>
                           </div>
@@ -380,7 +380,7 @@ export default function Pricing() {
               </div>
 
               {/* Enterprise Card */}
-              <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-white/10 dark:bg-white/5 backdrop-blur-lg border border-white/20 dark:border-white/10 text-gray-900 dark:text-white rounded-2xl overflow-hidden">
+              <Card className="group hover:shadow-xl border-2 border-gray-200 transition-all duration-300 hover:-translate-y-2 bg-white/10 dark:bg-white/5 backdrop-blur-lg dark:border-white/10 text-gray-900 dark:text-white rounded-2xl overflow-hidden">
                 <CardContent className="p-6">
                   {/* Header with Plan Name and Description */}
                   <div className="flex items-start justify-between mb-4">
