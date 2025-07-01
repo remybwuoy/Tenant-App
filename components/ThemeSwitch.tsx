@@ -28,7 +28,7 @@ export default function ThemeSwitch() {
         }`}
       >
         <span
-          className={`inline-block h-4 w-4 transform rounded-full border-2 border-brand-green/50 bg-white transition-transform ${
+          className={`inline-block h-4 w-4 transform rounded-full border-2 border-white bg-black transition-transform ${
             isDark ? "translate-x-6" : "translate-x-1"
           }`}
         />

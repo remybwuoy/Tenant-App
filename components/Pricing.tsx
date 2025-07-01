@@ -206,7 +206,7 @@ export default function Pricing() {
             </div>
 
             {/* Right Column - Description & Location */}
-            <div className="pricing-content space-y-8">
+            <div className="pricing-content space-y-8 z-50">
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 No hidden fees. All features included. Just pick a tier based on the number of units—and customize it
                 further with powerful add-ons.
@@ -238,15 +238,15 @@ export default function Pricing() {
                           <button
                             key={currency.code}
                             onClick={() => handleCurrencyChange(currency)}
-                            className="w-full flex items-center justify-between px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors z-50"
+                            className="w-full flex items-center justify-between px-4 py-3 hover:text-white hover:bg-black dark:hover:bg-gray-700 transition-colors z-50"
                           >
                             <div className="flex items-center space-x-3">
                               <span className="text-lg">{currency.flag}</span>
                               <div className="text-left">
-                                <div className="text-sm font-medium text-gray-900 dark:text-white">
+                                <div className="text-sm font-medium text-gray-400 hover:text-white dark:text-white">
                                   {currency.country}
                                 </div>
-                                <div className="text-xs text-gray-500 dark:text-gray-400">{currency.code}</div>
+                                <div className="text-xs hover:text-white text-gray-400 dark:text-white">{currency.code}</div>
                               </div>
                             </div>
                             {selectedCurrency.code === currency.code && <Check className="w-4 h-4 text-brand-green" />}
@@ -280,7 +280,7 @@ export default function Pricing() {
                   }`}
                 >
                   <span
-                    className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                    className={`inline-block h-4 w-4 transform rounded-full bg-black transition-transform ${
                       isAnnual ? "translate-x-6" : "translate-x-1"
                     }`}
                   />
