@@ -27,7 +27,7 @@ export default function Header() {
   }
 
   return (
-    <header className="w-full bg-stone-950 border-b border-border/50 backdrop-blur-lg bg-background/95 transition-all duration-300">
+    <header className="fixed z-50 w-full bg-neutral-950/80 dark:bg-neutral-950/10 top-0 backdrop-blur-lg transition-all duration-300">
       <div className="container mx-auto px-4 lg:px-10 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -79,7 +79,7 @@ export default function Header() {
             <nav className="flex flex-col text-center space-y-4">
               <Link href="https://tenantpulse.space/login" className="text-white font-medium hover:text-brand-green/90">Sign In</Link>
               <Link href="https://tenantpulse.space/signup"><Button className="bg-brand-green text-center justify-center hover:bg-brand-green/90 text-white w-full">Sign Up</Button></Link>
-              <Link href="https://replit.com/oidc-login-consent/hT67-4dqvv5mhs9eZe5sM"><Button className="bg-brand-green justify-center hover:bg-brand-green/90 w-full text-white">
+              <Link href="https://replit.com/oidc-login-consent/BqqzFuPY6U_LQkMBDe1BD"><Button className="bg-brand-green justify-center hover:bg-brand-green/90 w-full text-white">
                 Continue with Replit
               </Button>
               </Link>

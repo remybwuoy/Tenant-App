@@ -39,7 +39,7 @@ export default function Hero() {
 
   return (
     // <><SectionHeader title="Tools for Landlords" />
-    <section ref={heroRef} className="pt-0 mt-1 mt-lg-4 pb-2 px-6 flex items-center bg-white dark:bg-dark-bg">
+    <section ref={heroRef} className="pt-40 lg:pt-20 pb-2 px-6 flex items-center bg-white dark:bg-dark-bg">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Dashboard Preview */}
@@ -125,7 +125,7 @@ export default function Hero() {
                     ))}
                   </div>
                   <span className="text-gray-700 dark:text-gray-300 font-medium">
-                    5.0 out of 5.0 stars based on 1100 reviews.
+                    be the first to review.
                   </span>
                 </div>
               </div>
