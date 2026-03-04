@@ -45,7 +45,7 @@ export default function Footer() {
               />         
             </div>
             <span className="text-lg">
-              Built by <Link href="https://teamalfy.com" className="text-white font-medium hover:text-brand-green">TeamAlfy Web Services</Link>
+              Built by <Link href="https://projectgiantshub.com" className="text-white font-medium hover:text-brand-green">PGH</Link>
             </span>
           </div>
         </div>
