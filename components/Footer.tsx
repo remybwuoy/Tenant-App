@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="flex items-center justify-center space-x-3 text-gray-400">
             <div className="w-12 h-12 bg-white rounded flex items-center justify-center">
               <img
-                src="/images/icons/Teamalfy-logo.png"
+                src="/images/icons/PGH-logo.png"
                 alt="TenantPulse Logo"
                 className="transition-transform duration-700 group-hover:scale-105"
               />         
